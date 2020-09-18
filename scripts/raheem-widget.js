@@ -10,21 +10,25 @@ class RaheemWidget {
     // allow adding customizable options (id, class, size, label...)
     this.widgetId = options.iframeId || 'widget'
     this.buttonId = options.buttonId || 'add_widget'
+    this.siteId = options.siteId || ''
     this.addWidget()
     this.addButton()
   }
 
   addWidget () {
+    const iframeSrc = `https://5f64725ccfe63e0008315c3e--raheem-develop.netlify.app/widget/?siteId=${this.siteId}`
     $('body').append(
-      `<iframe src="https://raheem.org" height="500" width="300" frameborder="0" id="${this.widgetId}"></iframe>`
+      `<iframe src="${iframeSrc}" height="500" width="360" frameborder="0" id="${this.widgetId}"></iframe>`
     );
-    $(this.getSelector(this.widgetId)).css({
+    var frame = $(this.getSelector(this.widgetId))
+    frame.css({
       'bottom': '50px',
       'opacity': '0',
       'position': 'fixed',
-      'right': '50px',
-      'transition': 'all .5s linear',
+      'right': '70px',
+      'transition': 'all .5s ease-in',
       'z-index': '-1000',
+      'border-radius': '10px'
     })
   }
 
@@ -35,6 +39,7 @@ class RaheemWidget {
     $(this.getSelector(this.buttonId))
       .click(function () {
         self.showing = !self.showing
+        $(self.getSelector(self.buttonId)).html(self.showing ? 'Hide' : 'Show')
         $(self.getSelector(self.widgetId)).css({
           'opacity': self.showing ? 1 : 0,
           'z-index': self.showing ? 1000 : -1000
@@ -45,7 +50,7 @@ class RaheemWidget {
         'border-radius': '25px',
         'border': '0',
         'bottom': '0',
-        'color': '#111',
+        // 'color': 'white',
         'cursor': 'pointer',
         'display': 'flex',
         'font-size': '14px',
