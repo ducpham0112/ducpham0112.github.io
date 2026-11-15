@@ -1,0 +1,400 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 980" width="700" height="980" font-family="Arial, sans-serif">
+  <!-- Layout v10: Trofast LEFT | Display+Vali MIDDLE | Cleaning RIGHT -->
+  <!-- Scale: 2px/cm | Cabinet: 240cm=480px wide, 280cm=560px tall -->
+  <!-- Panel thickness: 1.8cm = 3.6px (birch plywood 18mm) -->
+  <!-- Height: 1.8+73.2+1.8+115+1.8+74.8+1.8+8+1.8 = 280cm -->
+
+  <rect x="0" y="0" width="700" height="980" fill="#fafafa"/>
+
+  <!-- Title -->
+  <text x="350" y="16" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">TU PHONG CON -- Layout v10 (240x280x40-60cm)</text>
+  <text x="350" y="28" text-anchor="middle" font-size="8" fill="#777">Trofast TRAI 45cm | Display+Vali GIUA 150cm | Cleaning PHAI 45cm (sau 60cm, canh cheo)</text>
+
+  <!-- Legend -->
+  <rect x="80" y="35" width="10" height="7" fill="#f5f0ea" stroke="#a0845c" stroke-width="0.5"/>
+  <text x="94" y="41" font-size="6" fill="#333">Trofast/Main</text>
+  <rect x="150" y="35" width="10" height="7" fill="#D4B896" stroke="#a0845c" stroke-width="0.5"/>
+  <text x="164" y="41" font-size="6" fill="#333">Ke go birch</text>
+  <rect x="215" y="35" width="10" height="7" fill="#fffde7" stroke="#8B7355" stroke-width="0.5"/>
+  <text x="229" y="41" font-size="6" fill="#333">Cleaning</text>
+  <line x1="270" y1="39" x2="290" y2="39" stroke="#66bb6a" stroke-width="2"/>
+  <text x="295" y="41" font-size="6" fill="#333">Canh cheo</text>
+  <line x1="330" y1="39" x2="350" y2="39" stroke="#ffab00" stroke-width="2"/>
+  <text x="355" y="41" font-size="6" fill="#333">LED strip</text>
+
+  <!-- ============ FRONT ELEVATION ============ -->
+  <!-- Cabinet outer frame: x=60..540, y=50..610 -->
+  <rect x="60" y="50" width="480" height="560" rx="2" fill="none" stroke="#8B7355" stroke-width="4"/>
+
+  <!-- TOP ZONE interior: y=54..200 (73.2cm) -->
+  <rect x="62" y="52" width="476" height="148" fill="#f0f0f0" stroke="#8B7355" stroke-width="1.5"/>
+  <rect x="64" y="54" width="156" height="144" fill="#fff" stroke="#ddd" stroke-width="1" rx="2"/>
+  <rect x="222" y="54" width="156" height="144" fill="#fff" stroke="#ddd" stroke-width="1" rx="2"/>
+  <rect x="380" y="54" width="156" height="144" fill="#fff" stroke="#ddd" stroke-width="1" rx="2"/>
+  <text x="142" y="70" text-anchor="middle" font-size="8" fill="#1565c0">gas strut</text>
+  <text x="300" y="70" text-anchor="middle" font-size="8" fill="#1565c0">gas strut</text>
+  <text x="458" y="70" text-anchor="middle" font-size="8" fill="#1565c0">gas strut</text>
+  <text x="300" y="125" text-anchor="middle" font-size="11" font-weight="bold" fill="#1565c0">CHAN / DO DONG</text>
+  <text x="300" y="140" text-anchor="middle" font-size="8" fill="#555">3 canh lat len - FULL WIDTH 240cm x 75cm</text>
+
+  <!-- Top door width dimensions: ~78.8cm each -->
+  <line x1="64" y1="48" x2="220" y2="48" stroke="#555" stroke-width="0.5"/>
+  <line x1="64" y1="45" x2="64" y2="51" stroke="#555" stroke-width="0.5"/>
+  <line x1="220" y1="45" x2="220" y2="51" stroke="#555" stroke-width="0.5"/>
+  <text x="142" y="46" text-anchor="middle" font-size="5" fill="#555">~78.8cm</text>
+  <line x1="222" y1="48" x2="378" y2="48" stroke="#555" stroke-width="0.5"/>
+  <line x1="222" y1="45" x2="222" y2="51" stroke="#555" stroke-width="0.5"/>
+  <line x1="378" y1="45" x2="378" y2="51" stroke="#555" stroke-width="0.5"/>
+  <text x="300" y="46" text-anchor="middle" font-size="5" fill="#555">~78.8cm</text>
+  <line x1="380" y1="48" x2="536" y2="48" stroke="#555" stroke-width="0.5"/>
+  <line x1="380" y1="45" x2="380" y2="51" stroke="#555" stroke-width="0.5"/>
+  <line x1="536" y1="45" x2="536" y2="51" stroke="#555" stroke-width="0.5"/>
+  <text x="458" y="46" text-anchor="middle" font-size="5" fill="#555">~78.8cm</text>
+  <!-- Door height annotation -->
+  <text x="544" y="130" text-anchor="end" font-size="5" fill="#555">73.2cm</text>
+
+  <!-- Divider Top/Middle: 1.8cm at y=200 -->
+  <rect x="60" y="200" width="480" height="4" fill="#8B7355"/>
+
+  <!-- TROFAST: x=62..150, y=204..587 -->
+  <rect x="62" y="204" width="88" height="383" fill="#f5f0ea" stroke="#a0845c" stroke-width="1"/>
+  <g stroke="#c0a878" stroke-width="0.8">
+    <line x1="66" y1="210" x2="146" y2="210"/><line x1="66" y1="240" x2="146" y2="240"/>
+    <line x1="66" y1="270" x2="146" y2="270"/><line x1="66" y1="300" x2="146" y2="300"/>
+    <line x1="66" y1="330" x2="146" y2="330"/><line x1="66" y1="360" x2="146" y2="360"/>
+    <line x1="66" y1="390" x2="146" y2="390"/><line x1="66" y1="420" x2="146" y2="420"/>
+    <line x1="66" y1="450" x2="146" y2="450"/><line x1="66" y1="480" x2="146" y2="480"/>
+    <line x1="66" y1="510" x2="146" y2="510"/><line x1="66" y1="540" x2="146" y2="540"/>
+  </g>
+  <!-- Small bins 10cm=20px -->
+  <rect x="68" y="210" width="74" height="20" rx="2" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <rect x="68" y="240" width="74" height="20" rx="2" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <rect x="68" y="270" width="74" height="20" rx="2" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <rect x="68" y="300" width="74" height="20" rx="2" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <rect x="68" y="330" width="74" height="20" rx="2" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <rect x="68" y="360" width="74" height="20" rx="2" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <!-- Large bins 23cm=46px -->
+  <rect x="68" y="390" width="74" height="46" rx="2" fill="#fff" stroke="#bbb" stroke-width="1.2"/>
+  <rect x="68" y="450" width="74" height="46" rx="2" fill="#fff" stroke="#bbb" stroke-width="1.2"/>
+  <rect x="68" y="510" width="74" height="46" rx="2" fill="#fff" stroke="#bbb" stroke-width="1.2"/>
+  <text x="106" y="385" text-anchor="middle" font-size="6" fill="#777">6 nho (10cm)</text>
+  <text x="106" y="567" text-anchor="middle" font-size="6" fill="#777">3 lon (23cm)</text>
+  <text x="106" y="580" text-anchor="middle" font-size="7" font-weight="bold" fill="#a0845c">TROFAST 45cm</text>
+
+  <!-- Vertical divider Trofast|Display x=150 -->
+  <rect x="150" y="200" width="4" height="387" fill="#8B7355"/>
+
+  <!-- DISPLAY ZONE: x=154..450, y=204..434 (115cm=230px) -->
+  <rect x="154" y="204" width="296" height="230" fill="#fff8e1" stroke="#8B7355" stroke-width="1"/>
+  <line x1="302" y1="204" x2="302" y2="434" stroke="#8B7355" stroke-width="2"/>
+  <!-- Bay 1 shelves: y=247,294,341,388 -->
+  <rect x="156" y="247" width="144" height="4" fill="#D4B896" stroke="#a0845c" stroke-width="0.5"/>
+  <rect x="156" y="294" width="144" height="4" fill="#D4B896" stroke="#a0845c" stroke-width="0.5"/>
+  <rect x="156" y="341" width="144" height="4" fill="#D4B896" stroke="#a0845c" stroke-width="0.5"/>
+  <rect x="156" y="388" width="144" height="4" fill="#D4B896" stroke="#a0845c" stroke-width="0.5"/>
+  <line x1="158" y1="252" x2="298" y2="252" stroke="#ffab00" stroke-width="1.2" opacity="0.6"/>
+  <line x1="158" y1="299" x2="298" y2="299" stroke="#ffab00" stroke-width="1.2" opacity="0.6"/>
+  <line x1="158" y1="346" x2="298" y2="346" stroke="#ffab00" stroke-width="1.2" opacity="0.6"/>
+  <line x1="158" y1="393" x2="298" y2="393" stroke="#ffab00" stroke-width="1.2" opacity="0.6"/>
+  <!-- Bay 2 shelves -->
+  <rect x="304" y="247" width="144" height="4" fill="#D4B896" stroke="#a0845c" stroke-width="0.5"/>
+  <rect x="304" y="294" width="144" height="4" fill="#D4B896" stroke="#a0845c" stroke-width="0.5"/>
+  <rect x="304" y="341" width="144" height="4" fill="#D4B896" stroke="#a0845c" stroke-width="0.5"/>
+  <rect x="304" y="388" width="144" height="4" fill="#D4B896" stroke="#a0845c" stroke-width="0.5"/>
+  <line x1="306" y1="252" x2="446" y2="252" stroke="#ffab00" stroke-width="1.2" opacity="0.6"/>
+  <line x1="306" y1="299" x2="446" y2="299" stroke="#ffab00" stroke-width="1.2" opacity="0.6"/>
+  <line x1="306" y1="346" x2="446" y2="346" stroke="#ffab00" stroke-width="1.2" opacity="0.6"/>
+  <line x1="306" y1="393" x2="446" y2="393" stroke="#ffab00" stroke-width="1.2" opacity="0.6"/>
+  <text x="228" y="222" text-anchor="middle" font-size="9" font-weight="bold" fill="#e65100">LEGO BAY 1</text>
+  <text x="376" y="222" text-anchor="middle" font-size="9" font-weight="bold" fill="#e65100">LEGO BAY 2</text>
+  <text x="228" y="237" text-anchor="middle" font-size="7" fill="#777">ke go birch 18mm + LED</text>
+  <text x="376" y="237" text-anchor="middle" font-size="7" fill="#777">ke go birch 18mm + LED</text>
+  <text x="302" y="420" text-anchor="middle" font-size="7" fill="#999">(MO) 150cm x 115cm - 2 bays</text>
+
+  <!-- Divider Display|Vali: 1.8cm at y=434 -->
+  <rect x="154" y="434" width="296" height="4" fill="#8B7355"/>
+
+  <!-- VALI ZONE: x=154..450, y=438..587 (74.8cm) -->
+  <rect x="154" y="438" width="296" height="149" fill="#f5f5f5" stroke="#8B7355" stroke-width="1"/>
+  <rect x="156" y="440" width="73" height="145" fill="#fff" stroke="#e0e0e0" stroke-width="0.8" rx="1"/>
+  <rect x="231" y="440" width="73" height="145" fill="#fff" stroke="#e0e0e0" stroke-width="0.8" rx="1"/>
+  <rect x="306" y="440" width="73" height="145" fill="#fff" stroke="#e0e0e0" stroke-width="0.8" rx="1"/>
+  <rect x="381" y="440" width="67" height="145" fill="#fff" stroke="#e0e0e0" stroke-width="0.8" rx="1"/>
+  <line x1="230" y1="442" x2="230" y2="583" stroke="#bbb" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="305" y1="442" x2="305" y2="583" stroke="#bbb" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="380" y1="442" x2="380" y2="583" stroke="#bbb" stroke-width="1" stroke-dasharray="3,3"/>
+  <rect x="220" y="508" width="8" height="2" fill="#999" rx="1"/>
+  <rect x="295" y="508" width="8" height="2" fill="#999" rx="1"/>
+  <rect x="370" y="508" width="8" height="2" fill="#999" rx="1"/>
+  <rect x="440" y="508" width="6" height="2" fill="#999" rx="1"/>
+  <text x="302" y="488" text-anchor="middle" font-size="11" font-weight="bold" fill="#555">VALI</text>
+  <text x="302" y="524" text-anchor="middle" font-size="8" fill="#777">Bi-fold 4 canh - 150cm x 74.8cm</text>
+  <text x="302" y="540" text-anchor="middle" font-size="7" fill="#4caf50">4-5 vali cabin 20" dung (55cm cao)</text>
+  <text x="302" y="555" text-anchor="middle" font-size="7" fill="#777">hoac 3 vali 24" nam ngang</text>
+
+  <!-- Vertical divider Display|Cleaning x=450 -->
+  <rect x="450" y="200" width="4" height="387" fill="#8B7355"/>
+
+  <!-- CLEANING COLUMN: x=454..538, y=204..587 -->
+  <rect x="454" y="204" width="84" height="383" fill="#fffde7" stroke="#8B7355" stroke-width="1"/>
+  <line x1="458" y1="250" x2="534" y2="250" stroke="#a0845c" stroke-width="2"/>
+  <line x1="458" y1="340" x2="534" y2="340" stroke="#a0845c" stroke-width="2"/>
+  <line x1="458" y1="430" x2="534" y2="430" stroke="#a0845c" stroke-width="2"/>
+  <rect x="456" y="206" width="80" height="379" fill="none" stroke="#bbb" stroke-width="1.5" rx="2"/>
+  <text x="496" y="480" text-anchor="middle" font-size="7" font-weight="bold" fill="#2e7d32">CLEANING</text>
+  <text x="496" y="493" text-anchor="middle" font-size="6" fill="#2e7d32">DYSON + TOOLS</text>
+  <text x="496" y="508" text-anchor="middle" font-size="5" fill="#555">Lung: 3 ke nho</text>
+  <text x="496" y="520" text-anchor="middle" font-size="5" fill="#555">Canh: trang, push-open</text>
+  <text x="496" y="534" text-anchor="middle" font-size="5" fill="#c62828">45r x 191.6h x 60s (cheo)</text>
+
+  <!-- BASE: y=590..606 (8cm) -->
+  <rect x="62" y="590" width="476" height="16" fill="#D4B896" stroke="#8B7355" stroke-width="1"/>
+  <text x="300" y="601" text-anchor="middle" font-size="7" fill="#555">DE 8cm</text>
+
+  <!-- ======== LEFT SIDE DIMENSIONS (internal heights) ======== -->
+  <line x1="50" y1="54" x2="50" y2="606" stroke="#555" stroke-width="0.5"/>
+  <line x1="46" y1="54" x2="54" y2="54" stroke="#555" stroke-width="0.5"/>
+  <line x1="46" y1="200" x2="54" y2="200" stroke="#555" stroke-width="0.5"/>
+  <line x1="46" y1="204" x2="54" y2="204" stroke="#8B7355" stroke-width="0.5"/>
+  <line x1="46" y1="434" x2="54" y2="434" stroke="#555" stroke-width="0.5"/>
+  <line x1="46" y1="438" x2="54" y2="438" stroke="#8B7355" stroke-width="0.5"/>
+  <line x1="46" y1="587" x2="54" y2="587" stroke="#555" stroke-width="0.5"/>
+  <line x1="46" y1="590" x2="54" y2="590" stroke="#8B7355" stroke-width="0.5"/>
+  <line x1="46" y1="606" x2="54" y2="606" stroke="#555" stroke-width="0.5"/>
+  <text x="44" y="127" text-anchor="end" font-size="6" fill="#555" transform="rotate(-90 44 127)">73.2cm</text>
+  <text x="44" y="319" text-anchor="end" font-size="6" fill="#555" transform="rotate(-90 44 319)">115cm</text>
+  <text x="44" y="511" text-anchor="end" font-size="6" fill="#555" transform="rotate(-90 44 511)">74.8cm</text>
+  <text x="44" y="598" text-anchor="end" font-size="6" fill="#555" transform="rotate(-90 44 598)">8cm</text>
+  <!-- Divider brackets (small 1.8 labels) -->
+  <text x="44" y="202" text-anchor="end" font-size="4" fill="#8B7355">1.8</text>
+  <text x="44" y="436" text-anchor="end" font-size="4" fill="#8B7355">1.8</text>
+  <text x="44" y="589" text-anchor="end" font-size="4" fill="#8B7355">1.8</text>
+
+  <!-- ======== RIGHT SIDE DIMENSIONS (zone heights + total) ======== -->
+  <line x1="555" y1="50" x2="555" y2="610" stroke="#333" stroke-width="0.5"/>
+  <line x1="550" y1="52" x2="560" y2="52" stroke="#333" stroke-width="0.5"/>
+  <line x1="550" y1="200" x2="560" y2="200" stroke="#333" stroke-width="0.5"/>
+  <line x1="550" y1="434" x2="560" y2="434" stroke="#333" stroke-width="0.5"/>
+  <line x1="550" y1="587" x2="560" y2="587" stroke="#333" stroke-width="0.5"/>
+  <line x1="550" y1="606" x2="560" y2="606" stroke="#333" stroke-width="0.5"/>
+  <text x="565" y="130" text-anchor="start" font-size="8" fill="#333">75cm</text>
+  <text x="565" y="322" text-anchor="start" font-size="8" fill="#333">115cm</text>
+  <text x="565" y="515" text-anchor="start" font-size="8" fill="#333">74.8cm</text>
+  <text x="565" y="599" text-anchor="start" font-size="7" fill="#333">8cm</text>
+  <!-- Total height -->
+  <line x1="608" y1="50" x2="608" y2="610" stroke="#c62828" stroke-width="0.8"/>
+  <line x1="603" y1="50" x2="613" y2="50" stroke="#c62828" stroke-width="0.8"/>
+  <line x1="603" y1="610" x2="613" y2="610" stroke="#c62828" stroke-width="0.8"/>
+  <text x="608" y="335" text-anchor="middle" font-size="9" font-weight="bold" fill="#c62828" transform="rotate(-90 608 335)">280cm</text>
+
+  <!-- ======== DISPLAY COMPARTMENT HEIGHTS (right of display x=458) ======== -->
+  <line x1="458" y1="204" x2="458" y2="434" stroke="#555" stroke-width="0.5"/>
+  <line x1="455" y1="204" x2="461" y2="204" stroke="#555" stroke-width="0.5"/>
+  <line x1="455" y1="247" x2="461" y2="247" stroke="#555" stroke-width="0.5"/>
+  <line x1="455" y1="251" x2="461" y2="251" stroke="#8B7355" stroke-width="0.5"/>
+  <line x1="455" y1="294" x2="461" y2="294" stroke="#555" stroke-width="0.5"/>
+  <line x1="455" y1="298" x2="461" y2="298" stroke="#8B7355" stroke-width="0.5"/>
+  <line x1="455" y1="341" x2="461" y2="341" stroke="#555" stroke-width="0.5"/>
+  <line x1="455" y1="345" x2="461" y2="345" stroke="#8B7355" stroke-width="0.5"/>
+  <line x1="455" y1="388" x2="461" y2="388" stroke="#555" stroke-width="0.5"/>
+  <line x1="455" y1="392" x2="461" y2="392" stroke="#8B7355" stroke-width="0.5"/>
+  <line x1="455" y1="434" x2="461" y2="434" stroke="#555" stroke-width="0.5"/>
+  <text x="463" y="228" font-size="5" fill="#555">21.6cm</text>
+  <text x="463" y="274" font-size="5" fill="#555">21.6cm</text>
+  <text x="463" y="321" font-size="5" fill="#555">21.6cm</text>
+  <text x="463" y="368" font-size="5" fill="#555">21.6cm</text>
+  <text x="463" y="416" font-size="5" fill="#555">21.6cm</text>
+  <text x="463" y="250" font-size="4" fill="#8B7355">1.8</text>
+  <text x="463" y="297" font-size="4" fill="#8B7355">1.8</text>
+  <text x="463" y="344" font-size="4" fill="#8B7355">1.8</text>
+  <text x="463" y="391" font-size="4" fill="#8B7355">1.8</text>
+
+  <!-- ======== DISPLAY WIDTH DIMENSIONS ======== -->
+  <!-- Bay widths inside display zone -->
+  <line x1="156" y1="428" x2="300" y2="428" stroke="#555" stroke-width="0.4"/>
+  <line x1="156" y1="425" x2="156" y2="431" stroke="#555" stroke-width="0.4"/>
+  <line x1="300" y1="425" x2="300" y2="431" stroke="#555" stroke-width="0.4"/>
+  <text x="228" y="433" text-anchor="middle" font-size="5" fill="#555">72.3cm</text>
+  <line x1="304" y1="428" x2="448" y2="428" stroke="#555" stroke-width="0.4"/>
+  <line x1="304" y1="425" x2="304" y2="431" stroke="#555" stroke-width="0.4"/>
+  <line x1="448" y1="425" x2="448" y2="431" stroke="#555" stroke-width="0.4"/>
+  <text x="376" y="433" text-anchor="middle" font-size="5" fill="#555">72.3cm</text>
+  <!-- Center divider thickness label -->
+  <text x="302" y="210" text-anchor="middle" font-size="4" fill="#8B7355">1.8cm</text>
+  <!-- Total interior width -->
+  <line x1="154" y1="200" x2="450" y2="200" stroke="#c62828" stroke-width="0.5"/>
+  <text x="302" y="198" text-anchor="middle" font-size="5" fill="#c62828">146.4cm interior</text>
+
+  <!-- ======== TROFAST DIMENSIONS ======== -->
+  <!-- Width inside: 43.2cm -->
+  <line x1="66" y1="207" x2="146" y2="207" stroke="#555" stroke-width="0.5"/>
+  <line x1="66" y1="204" x2="66" y2="210" stroke="#555" stroke-width="0.5"/>
+  <line x1="146" y1="204" x2="146" y2="210" stroke="#555" stroke-width="0.5"/>
+  <text x="106" y="216" text-anchor="middle" font-size="5" fill="#555">43.2cm</text>
+  <!-- Rail spacing 15cm on 3 pairs -->
+  <line x1="148" y1="210" x2="148" y2="240" stroke="#8B7355" stroke-width="0.5"/>
+  <line x1="146" y1="210" x2="150" y2="210" stroke="#8B7355" stroke-width="0.5"/>
+  <line x1="146" y1="240" x2="150" y2="240" stroke="#8B7355" stroke-width="0.5"/>
+  <text x="153" y="228" font-size="4" fill="#8B7355">15cm</text>
+  <line x1="148" y1="270" x2="148" y2="300" stroke="#8B7355" stroke-width="0.5"/>
+  <line x1="146" y1="270" x2="150" y2="270" stroke="#8B7355" stroke-width="0.5"/>
+  <line x1="146" y1="300" x2="150" y2="300" stroke="#8B7355" stroke-width="0.5"/>
+  <text x="153" y="288" font-size="4" fill="#8B7355">15cm</text>
+  <line x1="148" y1="330" x2="148" y2="360" stroke="#8B7355" stroke-width="0.5"/>
+  <line x1="146" y1="330" x2="150" y2="330" stroke="#8B7355" stroke-width="0.5"/>
+  <line x1="146" y1="360" x2="150" y2="360" stroke="#8B7355" stroke-width="0.5"/>
+  <text x="153" y="348" font-size="4" fill="#8B7355">15cm</text>
+  <!-- 3cm from zone top to first rail -->
+  <line x1="63" y1="204" x2="63" y2="210" stroke="#555" stroke-width="0.4"/>
+  <text x="61" y="209" text-anchor="end" font-size="4" fill="#555">3cm</text>
+  <!-- Small bin height 10cm -->
+  <line x1="144" y1="210" x2="144" y2="230" stroke="#555" stroke-width="0.4"/>
+  <line x1="142" y1="210" x2="146" y2="210" stroke="#555" stroke-width="0.4"/>
+  <line x1="142" y1="230" x2="146" y2="230" stroke="#555" stroke-width="0.4"/>
+  <text x="140" y="223" text-anchor="end" font-size="4" fill="#555">10cm</text>
+  <!-- Large bin height 23cm -->
+  <line x1="144" y1="390" x2="144" y2="436" stroke="#555" stroke-width="0.4"/>
+  <line x1="142" y1="390" x2="146" y2="390" stroke="#555" stroke-width="0.4"/>
+  <line x1="142" y1="436" x2="146" y2="436" stroke="#555" stroke-width="0.4"/>
+  <text x="140" y="416" text-anchor="end" font-size="4" fill="#555">23cm</text>
+  <!-- Gap: last small bin to first large bin (rail 6 bottom=380 to rail 7=390 = 10px=5cm) -->
+  <line x1="144" y1="380" x2="144" y2="390" stroke="#555" stroke-width="0.3" stroke-dasharray="1,1"/>
+  <text x="140" y="388" text-anchor="end" font-size="3.5" fill="#555">5cm</text>
+  <!-- Bin depth note -->
+  <text x="106" y="575" text-anchor="middle" font-size="4" fill="#777">sau ~30cm</text>
+  <!-- Bin box width note -->
+  <text x="106" y="218" text-anchor="middle" font-size="4" fill="#777">42cm rong</text>
+
+  <!-- ======== VALI DIMENSIONS ======== -->
+  <!-- Panel widths 37.5cm x 4 -->
+  <line x1="156" y1="592" x2="448" y2="592" stroke="#555" stroke-width="0.5"/>
+  <line x1="156" y1="589" x2="156" y2="595" stroke="#555" stroke-width="0.5"/>
+  <line x1="230" y1="589" x2="230" y2="595" stroke="#555" stroke-width="0.5"/>
+  <line x1="305" y1="589" x2="305" y2="595" stroke="#555" stroke-width="0.5"/>
+  <line x1="380" y1="589" x2="380" y2="595" stroke="#555" stroke-width="0.5"/>
+  <line x1="448" y1="589" x2="448" y2="595" stroke="#555" stroke-width="0.5"/>
+  <text x="193" y="600" text-anchor="middle" font-size="5" fill="#555">37.5cm</text>
+  <text x="267" y="600" text-anchor="middle" font-size="5" fill="#555">37.5cm</text>
+  <text x="342" y="600" text-anchor="middle" font-size="5" fill="#555">37.5cm</text>
+  <text x="414" y="600" text-anchor="middle" font-size="5" fill="#555">37.5cm</text>
+  <!-- Vali usable height ~66cm (minus track) -->
+  <text x="160" y="460" font-size="4" fill="#777">~66cm usable (tru track)</text>
+
+  <!-- ======== CLEANING DIMENSIONS ======== -->
+  <!-- Width inside: 43.2cm -->
+  <line x1="458" y1="207" x2="534" y2="207" stroke="#555" stroke-width="0.5"/>
+  <line x1="458" y1="204" x2="458" y2="210" stroke="#555" stroke-width="0.5"/>
+  <line x1="534" y1="204" x2="534" y2="210" stroke="#555" stroke-width="0.5"/>
+  <text x="496" y="216" text-anchor="middle" font-size="5" fill="#555">43.2cm</text>
+  <!-- Shelf width: 34cm (shelves span x=458..534 = 76px = 38cm, label ~34cm usable) -->
+  <line x1="458" y1="247" x2="534" y2="247" stroke="#555" stroke-width="0.3"/>
+  <text x="496" y="245" text-anchor="middle" font-size="4" fill="#555">34cm ke</text>
+  <!-- Shelf spacing: 45cm between shelves -->
+  <line x1="537" y1="250" x2="537" y2="340" stroke="#555" stroke-width="0.4"/>
+  <line x1="535" y1="250" x2="539" y2="250" stroke="#555" stroke-width="0.4"/>
+  <line x1="535" y1="340" x2="539" y2="340" stroke="#555" stroke-width="0.4"/>
+  <text x="540" y="300" font-size="4" fill="#555">45cm</text>
+  <line x1="537" y1="340" x2="537" y2="430" stroke="#555" stroke-width="0.4"/>
+  <line x1="535" y1="340" x2="539" y2="340" stroke="#555" stroke-width="0.4"/>
+  <line x1="535" y1="430" x2="539" y2="430" stroke="#555" stroke-width="0.4"/>
+  <text x="540" y="390" font-size="4" fill="#555">45cm</text>
+
+  <!-- ======== BOTTOM WIDTH DIMENSIONS ======== -->
+  <line x1="60" y1="620" x2="540" y2="620" stroke="#c62828" stroke-width="0.8"/>
+  <line x1="60" y1="615" x2="60" y2="625" stroke="#c62828" stroke-width="0.8"/>
+  <line x1="540" y1="615" x2="540" y2="625" stroke="#c62828" stroke-width="0.8"/>
+  <text x="300" y="633" text-anchor="middle" font-size="9" font-weight="bold" fill="#c62828">240cm</text>
+  <!-- Column widths -->
+  <line x1="62" y1="645" x2="150" y2="645" stroke="#555" stroke-width="0.5"/>
+  <line x1="62" y1="641" x2="62" y2="649" stroke="#555" stroke-width="0.5"/>
+  <line x1="150" y1="641" x2="150" y2="649" stroke="#555" stroke-width="0.5"/>
+  <text x="106" y="658" text-anchor="middle" font-size="7" fill="#555">45cm</text>
+  <line x1="154" y1="645" x2="450" y2="645" stroke="#555" stroke-width="0.5"/>
+  <line x1="154" y1="641" x2="154" y2="649" stroke="#555" stroke-width="0.5"/>
+  <line x1="450" y1="641" x2="450" y2="649" stroke="#555" stroke-width="0.5"/>
+  <text x="302" y="658" text-anchor="middle" font-size="7" fill="#555">150cm</text>
+  <line x1="454" y1="645" x2="538" y2="645" stroke="#555" stroke-width="0.5"/>
+  <line x1="454" y1="641" x2="454" y2="649" stroke="#555" stroke-width="0.5"/>
+  <line x1="538" y1="641" x2="538" y2="649" stroke="#555" stroke-width="0.5"/>
+  <text x="496" y="658" text-anchor="middle" font-size="7" fill="#555">45cm</text>
+  <!-- Panel thickness annotations -->
+  <text x="152" y="670" text-anchor="middle" font-size="6" fill="#8B7355">panel 1.8cm</text>
+  <text x="452" y="670" text-anchor="middle" font-size="6" fill="#8B7355">panel 1.8cm</text>
+  <!-- Frame panel thickness labels -->
+  <text x="62" y="614" font-size="4" fill="#8B7355">frame 1.8cm top/bottom</text>
+  <!-- Column labels -->
+  <text x="106" y="684" text-anchor="middle" font-size="7" font-weight="bold" fill="#a0845c">TROFAST</text>
+  <text x="302" y="684" text-anchor="middle" font-size="7" font-weight="bold" fill="#e65100">DISPLAY + VALI</text>
+  <text x="496" y="684" text-anchor="middle" font-size="7" font-weight="bold" fill="#2e7d32">CLEANING</text>
+
+  <!-- ============ TOP-DOWN PLAN VIEW ============ -->
+  <text x="350" y="712" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">MAT CAT NGANG (TOP-DOWN PLAN VIEW)</text>
+  <text x="350" y="726" text-anchor="middle" font-size="7" fill="#777">Nhin tu tren xuong | Cleaning column phai sau hon (40 trai, 60 phai)</text>
+
+  <!-- Wall -->
+  <rect x="55" y="880" width="490" height="8" fill="#bbb"/>
+  <text x="300" y="898" text-anchor="middle" font-size="7" fill="#555">TUONG</text>
+
+  <!-- Main cabinet body -->
+  <rect x="60" y="800" width="390" height="80" fill="#f5f0ea" stroke="#8B7355" stroke-width="2"/>
+  <!-- Cleaning column polygon -->
+  <polygon points="450,800 540,760 540,880 450,880" fill="#fffde7" stroke="#8B7355" stroke-width="2"/>
+  <!-- Angled door face -->
+  <line x1="450" y1="800" x2="540" y2="760" stroke="#66bb6a" stroke-width="3.5"/>
+  <text x="505" y="775" text-anchor="middle" font-size="7" font-weight="bold" fill="#66bb6a" transform="rotate(-12 505 775)">CANH CHEO (push-open)</text>
+  <!-- Angle annotation ~24deg -->
+  <text x="460" y="795" font-size="5" fill="#66bb6a">~24deg</text>
+
+  <!-- Column dividers with panel thickness -->
+  <rect x="148" y="800" width="4" height="80" fill="#8B7355" opacity="0.4"/>
+  <rect x="448" y="800" width="4" height="80" fill="#8B7355" opacity="0.4"/>
+  <line x1="150" y1="800" x2="150" y2="880" stroke="#8B7355" stroke-width="2"/>
+  <line x1="450" y1="800" x2="450" y2="880" stroke="#8B7355" stroke-width="2"/>
+  <!-- Panel thickness labels in plan -->
+  <text x="150" y="796" text-anchor="middle" font-size="5" fill="#8B7355">1.8cm</text>
+  <text x="450" y="796" text-anchor="middle" font-size="5" fill="#8B7355">1.8cm</text>
+
+  <!-- Shelves on back wall of cleaning -->
+  <line x1="454" y1="876" x2="530" y2="876" stroke="#a0845c" stroke-width="2"/>
+  <text x="492" y="870" text-anchor="middle" font-size="5" fill="#a0845c">3 ke nho</text>
+
+  <!-- Plan labels -->
+  <text x="105" y="835" text-anchor="middle" font-size="8" fill="#a0845c">Trofast</text>
+  <text x="105" y="850" text-anchor="middle" font-size="6" fill="#777">40cm sau</text>
+  <text x="300" y="835" text-anchor="middle" font-size="8" fill="#e65100">Display + Vali</text>
+  <text x="300" y="850" text-anchor="middle" font-size="6" fill="#777">40cm sau</text>
+  <text x="495" y="845" text-anchor="middle" font-size="8" fill="#2e7d32">Cleaning</text>
+
+  <!-- Interior widths in plan: 43.2cm -->
+  <line x1="64" y1="870" x2="146" y2="870" stroke="#555" stroke-width="0.4"/>
+  <text x="105" y="867" text-anchor="middle" font-size="5" fill="#555">43.2cm</text>
+  <line x1="154" y1="870" x2="446" y2="870" stroke="#555" stroke-width="0.4"/>
+  <text x="300" y="867" text-anchor="middle" font-size="5" fill="#555">~146.4cm</text>
+  <line x1="454" y1="870" x2="530" y2="870" stroke="#555" stroke-width="0.4"/>
+  <text x="492" y="862" text-anchor="middle" font-size="5" fill="#555">43.2cm</text>
+
+  <!-- Depth: main 40cm -->
+  <line x1="40" y1="800" x2="40" y2="880" stroke="#333" stroke-width="0.5"/>
+  <line x1="35" y1="800" x2="45" y2="800" stroke="#333" stroke-width="0.5"/>
+  <line x1="35" y1="880" x2="45" y2="880" stroke="#333" stroke-width="0.5"/>
+  <text x="38" y="843" text-anchor="middle" font-size="7" fill="#333" transform="rotate(-90 38 843)">40cm</text>
+
+  <!-- Depth: cleaning 60cm -->
+  <line x1="555" y1="760" x2="555" y2="880" stroke="#c62828" stroke-width="0.8"/>
+  <line x1="550" y1="760" x2="560" y2="760" stroke="#c62828" stroke-width="0.8"/>
+  <line x1="550" y1="880" x2="560" y2="880" stroke="#c62828" stroke-width="0.8"/>
+  <text x="555" y="825" text-anchor="middle" font-size="8" font-weight="bold" fill="#c62828" transform="rotate(-90 555 825)">60cm</text>
+
+  <!-- Depth dimension on angled door: 40cm left → 60cm right -->
+  <text x="505" y="790" text-anchor="middle" font-size="5" fill="#555">40cm(trai) → 60cm(phai)</text>
+
+  <!-- Width in plan -->
+  <line x1="60" y1="905" x2="540" y2="905" stroke="#333" stroke-width="0.5"/>
+  <line x1="60" y1="901" x2="60" y2="909" stroke="#333" stroke-width="0.5"/>
+  <line x1="540" y1="901" x2="540" y2="909" stroke="#333" stroke-width="0.5"/>
+  <text x="300" y="917" text-anchor="middle" font-size="7" fill="#333">240cm</text>
+
+  <!-- Inner depth notes -->
+  <text x="495" y="856" text-anchor="middle" font-size="5" fill="#2e7d32">trong: 36.4-56.4cm</text>
+
+</svg>

@@ -1,0 +1,29 @@
+.section {
+  margin-bottom: var(--spacing-section);
+}
+
+.title {
+  font-size: var(--font-size-section);
+  margin: 0 0 1rem 0;
+  color: var(--color-text);
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 3px;
+  background-color: var(--color-accent);
+  border-radius: 2px;
+}
+
+.text {
+  font-size: var(--font-size-body);
+  color: var(--color-text-secondary);
+  line-height: 1.8;
+  margin: 0;
+}

@@ -1,0 +1,30 @@
+.button {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-card-bg);
+  color: var(--color-text);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  transition: background-color var(--transition-base), color var(--transition-base), transform 0.2s ease;
+  z-index: 100;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  background-color: var(--color-accent);
+  color: #fff;
+}
+
+@media print {
+  .button {
+    display: none;
+  }
+}

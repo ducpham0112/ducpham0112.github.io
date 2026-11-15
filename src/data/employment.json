@@ -1,0 +1,48 @@
+[
+  {
+    "position": "Senior Fullstack Developer",
+    "company": "Lazada Techub VN",
+    "period": "Oct 2020 - Present",
+    "responsibilities": [
+      "Drive end-to-end feature delivery across multiple product domains, from PRD review through production release and post-launch support.",
+      "Serve as the primary engineering liaison between Product, Design, and platform teams \u2014 translating business requirements into technical solutions and ensuring alignment across stakeholders.",
+      "Coordinate concurrent project workstreams across cross-functional teams, consistently meeting deadlines through proactive planning and resource management.",
+      "Own production stability for assigned applications \u2014 triaging incidents, managing campaign rollouts, and maintaining high system availability.",
+      "Designed and maintained a micro front-end publishing service using Node.js (Midway.js) \u2014 enabling independent team deployments, page versioning, and faster release cycles across the platform.",
+      "Built backend services using Java and Spring Boot integrated with Alibaba Cloud \u2014 including REST APIs, multi-tenant data management, access control, and enterprise system integrations.",
+      "Mentored backend engineers in frontend development and built MCP servers and AI skills that fully automate frontend development and deployment workflows \u2014 from code generation to production release."
+    ],
+    "skills": ["ReactJS", "NodeJS", "Midway.js", "Spring Boot", "TypeORM", "PostgreSQL", "Alibaba Cloud", "AntDesign", "MCP", "AI Automation"]
+  },
+  {
+    "position": "Senior/Lead Developer",
+    "company": "East Agile",
+    "period": "Oct 2015 - Oct 2020",
+    "responsibilities": [
+      "Architected a scalable IoT platform with distributed web applications and microservices running on Raspberry Pi edge devices.",
+      "Designed the full deployment infrastructure \u2014 server provisioning, routing, and CI/CD pipelines \u2014 enabling zero-downtime releases.",
+      "Delivered end-to-end features from specification to production, covering both frontend and backend implementations.",
+      "Scoped projects with clients and provided accurate technical estimations for development planning."
+    ],
+    "skills": ["ReactJS", "NodeJS", "Azure", "AWS", "AngularJS", "Docker"]
+  },
+  {
+    "position": "Software Developer (Freelance)",
+    "company": "Codelink",
+    "period": "Jun 2017 - Oct 2019",
+    "responsibilities": [
+      "Translated design mockups and UX wireframes into pixel-accurate, responsive production interfaces.",
+      "Delivered frontend fixes and performance optimizations for existing client applications."
+    ],
+    "skills": ["Ruby On Rails", "ReactJS", "jQuery"]
+  },
+  {
+    "position": "Junior Developer",
+    "company": "CSC Vietnam",
+    "period": "Jul 2014 - Oct 2015",
+    "responsibilities": [
+      "Developed native iOS, cross-platform mobile, and web applications across multiple client projects."
+    ],
+    "skills": []
+  }
+]

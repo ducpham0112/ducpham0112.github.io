@@ -1,0 +1,10 @@
+{
+  "name": "Duc Pham",
+  "title": "Software Developer",
+  "avatar": "/assets/avatar.jpg",
+  "contacts": [
+    { "type": "phone", "value": "0795375277", "icon": "phone" },
+    { "type": "email", "value": "duc.pham0112@gmail.com", "icon": "mail" },
+    { "type": "linkedin", "value": "https://linkedin.com/in/ducpham0112", "icon": "linkedin" }
+  ]
+}

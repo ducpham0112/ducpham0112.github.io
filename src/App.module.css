@@ -1,0 +1,48 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+}
+
+.main {
+  margin-left: var(--sidebar-width);
+  flex: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  padding: 3rem 3.5rem;
+  max-width: 820px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+
+  .content {
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media print {
+  .layout {
+    display: block;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+
+  .content {
+    padding: 0;
+    max-width: 100%;
+  }
+}
